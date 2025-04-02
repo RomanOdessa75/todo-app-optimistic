@@ -21,8 +21,8 @@ A simple Todo application built with Next.js, React Query, and Tailwind CSS. The
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd veel-todo-app
+git clone https://github.com/RomanOdessa75/todo-app-optimistic
+cd todo-app-optimistic
 ```
 
 2. Install dependencies:
@@ -45,17 +45,9 @@ yarn dev
 
 ## Technologies Used
 
-- Next.js 15
-- React 19
+- Next.js 14
+- React 18
 - TypeScript
 - Tailwind CSS
 - React Query
 - Axios
-
-## API Endpoints
-
-The app uses the following JSONPlaceholder API endpoints:
-
-- GET https://jsonplaceholder.typicode.com/todos?_limit=10
-- POST https://jsonplaceholder.typicode.com/todos
-- DELETE https://jsonplaceholder.typicode.com/todos/{id}
